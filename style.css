@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 300px;
+    max-width: 935px;
+    margin: auto;
+    padding-bottom: 32px;
+    margin-top: 32px;
+}
+
+.left {
+    min-height: 80px;
+    width: 380px;
+    margin-right: 32px;
+}
+
+.left img {
+    width: 386px;
+    margin-top: -6px;
+}
+
+.right {
+    min-height: 80px;
+    width: 350px;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.conta {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+}
+
+ .logo {
+     margin-top: 50px;
+}
+
+.conta .logo img {
+    width: 175px;
+}
+
+.conta .fotoPerfil {
+    width: 293px;
+  height: 122px;
+    margin: 25px;    
+}
+
+.fotoPerfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 1px #efefef;
+    margin: 10px auto 10px;
+}
+
+.btnLogin {
+    background: #0095f6;
+    width: 240px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    border-radius: 4px;
+}
+
+.btnLogin a {
+    color: white;
+}
+
+.removeAccount {
+    margin: 15px 0;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.removeAccount a {
+    color: #0095f6;
+}
+
+.cadastro {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin-top: 10px;
+    padding: 10px 0;
+    height: 61px;
+}
+
+.notAccount {
+    margin-bottom: 5px;
+}
+
+.linkAzul {
+    color: #0095f6;
+}
+
+.app {
+    margin-top: 10px;
+    height: 102px;
+}
+
+.app p{
+    height: 50%;
+    padding-top: 10px;
+    font: inherit;
+    font-size: 14px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn img {
+    height: 40px;
+}
+
+
+ @media (max-width: 875px) {
+     .left {
+         display: none;
+     }
+
+ }
